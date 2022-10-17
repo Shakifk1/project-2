@@ -5,7 +5,7 @@ body {
 
 #main-div {
     border: 1px solid lightblue;
-    margin: 50px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -111,8 +111,8 @@ body {
 .cardbox {
     border: 0px solid red;
     border-radius: 10px;
-    width: 360px;
-    height: 360px;
+    width: 350px;
+    height: 350px;
     margin: 15px;
     box-shadow: 4px 4px 4px gray, -4px -4px 4px grey;
     background-color: white;
@@ -147,6 +147,9 @@ body {
     height: 30px;
     width: 30px;
 }
+        input[type=checkbox] {
+          accent-color:#7B7B7B29;
+        }
 
 .box-text {
     font-size: 25px;
@@ -203,6 +206,8 @@ body {
 
 #popup-cross {
     float: right;
+    margin-top: 1em;
+    margin-right: 1em;
 }
 
 #popup-text {
