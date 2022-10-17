@@ -233,3 +233,43 @@ body {
     color: whitesmoke;
     background-color: blueviolet;
 }
+
+
+
+
+/* responsive for mobile */
+
+@media only screen and ( max-width: 769px ) {
+    body {
+        margin: 0%;
+        padding: 0%;
+    }
+    #main-div {
+        width: 100%;
+        margin: 0%;
+    }
+    #task {
+        text-align: center;
+        margin: auto;
+    }
+    #tasks {
+        margin: 0%;
+    }
+    #fafa-task {
+        display: none;
+    }
+    #fafa-plus {
+        transition: 1s;
+        margin: auto;
+    }
+    #card-main {
+        width: 100%;
+        flex-direction: column;
+        margin: 0%;
+    }
+    .cardbox {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+}
