@@ -147,10 +147,9 @@ body {
     height: 30px;
     width: 30px;
 }
-
-input[type=checkbox] {
-    accent-color: #7B7B7B29;
-}
+        input[type=checkbox] {
+          accent-color:#7B7B7B29;
+        }
 
 .box-text {
     font-size: 25px;
@@ -240,141 +239,102 @@ input[type=checkbox] {
 
 /* responsive for mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and ( max-width: 768px ) {
     body {
         margin: 0%;
         padding: 0%;
     }
-
     #main-div {
         width: 100%;
         margin: 0%;
     }
-
     #task {
         text-align: center;
         margin: auto;
     }
-
     #tasks {
         margin: 0%;
     }
-
     #fafa-task {
         display: none;
     }
-
     #fafa-plus {
         transition: 1s;
         margin: auto;
     }
-
     #card-main {
         width: 100%;
         flex-direction: column;
         margin: 0%;
     }
-
     .cardbox {
         width: 90%;
         margin: auto;
         margin-bottom: 1em;
     }
-
-    .popup-width {
+    .popup-width{
         width: 80%;
         margin: auto;
     }
-
     /* page 2 */
     #popup {
         width: 100%;
         left: 0%;
         top: 35%;
     }
-
     /* page3 */
-    #fafa-task3 {
-        display: none;
-    }
-
-    #fafa-back-add {
-        justify-content: space-around;
-    }
-
-    #back3 {
-        position: static;
-    }
-
-    #fafa-plus3 {
-        position: static;
-    }
+    #fafa-task3 {display: none;}
+    #fafa-back-add {justify-content: space-around;}
+        #back3 {position: static;}
+        
+        #fafa-plus3 { position: static;}
 }
 
 /* responsive for tab */
 
-@media only screen and (max-width: 1024px) and (min-width:769px) {
+@media only screen and ( max-width: 1024px ) and (min-width:769px) {
     body {
         margin: 0%;
         padding: 0%;
     }
-
     #main-div {
         width: 100%;
         margin: 0%;
     }
-
     #task {
         text-align: center;
         margin: auto;
     }
-
     #tasks {
         margin: 0%;
     }
-
     #fafa-task {
         display: none;
     }
-
     #fafa-plus {
         transition: 1s;
         margin: auto;
     }
-
     #card-main {
         width: 100%;
         flex-direction: column;
         margin: 0%;
     }
-
     .cardbox {
         width: 80%;
         margin: auto;
         margin-bottom: 1em;
     }
-
     /* page 2 */
-    #popup {
+        #popup {
         width: 100%;
         left: 0%;
         top: 35%;
     }
-
     /* page3 */
-    #fafa-task3 {
-        display: none;
-    }
-
-    #fafa-back-add {
-        justify-content: space-around;
-    }
-
-    #back3 {
-        position: static;
-    }
-
-    #fafa-plus3 {
-        position: static;
-    }
+    #fafa-task3 {display: none;}
+    #fafa-back-add {justify-content: space-around;}
+        #back3 {position: static;}
+        
+        #fafa-plus3 { position: static;}
 }
